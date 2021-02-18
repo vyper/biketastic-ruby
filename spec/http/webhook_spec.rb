@@ -7,7 +7,7 @@ require 'functions_framework/testing'
 describe 'Http::Webhook' do
   include FunctionsFramework::Testing
 
-  it 'GET' do
+  it 'GET /' do
     load_temporary 'app.rb' do
       request = make_get_request 'https://example.com/webhook'
       response = call_http 'webhook', request
@@ -16,7 +16,7 @@ describe 'Http::Webhook' do
     end
   end
 
-  it 'POST' do
+  it 'POST /' do
     load_temporary 'app.rb' do
       request = make_post_request 'https://example.com/webhook', '{"name":"Ruby"}', ['Content-Type: application/json']
       response = call_http 'webhook', request
