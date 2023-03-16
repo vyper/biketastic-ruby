@@ -15,7 +15,7 @@ GEM
       ast (~> 2.4.1)
     puma (4.3.7)
       nio4r (~> 2.0)
-    rack (2.2.3)
+    rack (2.2.6.4)
     rainbow (3.0.0)
     regexp_parser (2.0.3)
     rexml (3.2.4)
@@ -55,11 +55,11 @@ GEM
     sorbet (0.5.6289)
       sorbet-static (= 0.5.6289)
     sorbet-runtime (0.5.6289)
-    sorbet-static (0.5.6289-universal-darwin-14)
+    sorbet-static (0.5.6289-x86_64-linux)
     unicode-display_width (2.0.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   byebug (~> 11.1)
